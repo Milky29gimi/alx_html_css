@@ -1,0 +1,59 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+header div 
+{
+    flex-direction: row;
+    border: 5px solid red;
+    width: 100px;
+    align-items: center;
+}
+
+
+body main 
+{
+    display: flex;
+    flex: auto;
+    border-top: 2px solid black;
+}
+main
+{
+    border-top: 2px solid black;
+    flex-direction: row;
+    flex: auto;
+}
+article
+{
+    flex: 2;
+    overflow-y: auto;
+    border-right: 2px solid black;
+    align-items: center;
+}
+aside
+{
+    flex: 1;
+    overflow-y: auto;
+    border-left: 2px solid black;
+    align-items: center;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
