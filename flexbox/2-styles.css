@@ -373,7 +373,7 @@
     padding: 10rem 40rem 2rem 0;
   }
   /* Section Latest news ============================= */
-  ul.row
+  .row
   {
     flex-direction: row-reverse;
   }
