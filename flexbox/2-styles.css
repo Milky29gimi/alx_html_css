@@ -373,10 +373,11 @@
     padding: 10rem 40rem 2rem 0;
   }
   /* Section Latest news ============================= */
-  ul.row 
+  ul.row
   {
-    flex-direction: ;
+    flex-direction: row-reverse;
   }
+  
   /*** 4. CARD ***/
   
   /* Card (all styles)
